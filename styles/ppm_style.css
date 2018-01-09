@@ -1,0 +1,106 @@
+body{ 
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+.home-header{
+    position: relative;
+    z-index: 1000;
+}
+.navbar-brand{
+    padding-top: 15;
+}
+
+.navbar-brand{
+    font-size: 30px;
+  }
+  @media (max-width:500px) {
+    .navbar-brand{
+      font-size: 1.5rem;
+    }
+  }
+  
+
+.navbar, .navbar a, .navbar-toggler {
+    color: rgb(247, 247, 52);
+
+}
+.nav-item:hover{
+    background: rgb(70, 70, 70)
+}
+    
+.top-home-content{
+    background: url(backgrounds/earth.jpeg) center center;
+    
+    background-size: cover;
+}
+
+@media (max-width:500px) {
+    .marketing-heading{
+      font-size: .9rem;
+
+    }
+  }
+.main-home-content{
+   
+    min-height: 300px;
+}
+.marketing-heading{
+    font-size: 1.3em;
+    margin: auto;
+    max-width: 550px;
+    color: rgb(247, 247, 52);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.home-btn{
+    font-size: 1.3em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px black solid;
+    margin: 10px;
+    font-weight: bold;
+    display: inline-block;
+}
+.home-btn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    border: 2px rgb(247, 247, 52) solid;
+    transition: ease-in-out, border .3s ease-in-out;
+}
+.process-slides{
+    max-width: 500px;
+    max-height: 500px;
+}
+.bottom-home-content{
+
+    background: linear-gradient(to bottom,rgb(147, 168, 199),rgb(255, 255, 255)),center center;
+    text-align: center;
+    color: rgb(0, 78, 235);
+    
+}
+.bottom-home-width{
+    max-width: 550px;
+    margin: auto;
+}
+.main-footer{
+    color: white;
+    background-color: rgb(67, 85, 109);
+}
+.main-footer a{
+    color: rgb(247, 247, 52);
+
+}
+#disclaimer hr{
+    border-color: rgb(209, 209, 209);
+
+}
+@media (min-width: 992px) {
+    #disclaimer{
+        font-size: .75rem;
+ }
+}
